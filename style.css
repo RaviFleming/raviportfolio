@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    background-color: springgreen;
+    font-family: 'Montserrat';
+    /*background-image: url(/plane.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: springgreen;
+    border:1px solid springgreen;
+    padding: 10px;
+}
+
+div {
+    margin-top: 50px;
+    display: flex;
+}
+
+.bag {
+    width: auto;
+    background-color: midnightblue;
+    opacity: 80%;
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+    margin: 30px;
+}
+
+#foo{
+    background-size: cover;
+}
