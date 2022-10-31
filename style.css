@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Ubuntu:wght@700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -14,6 +16,9 @@ h1 {
     width: 100%;
     display:flex;
     justify-content:start;
+    border: 1px solid springgreen;
+    border-radius: 50px;
+    padding: 20px;
 }
 
 .bag {
@@ -22,8 +27,17 @@ h1 {
     padding: 50px;
     display:flex;
     justify-content:center;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid springgreen;
+    border-radius: 100px;
+    margin: 20px;
 }
 
-#foo{
-    background-size: cover;
+.bagg {
+    background-color: midnightblue;
+    opacity: 80%;
+    padding: 50px;
+    display:flex;
+    justify-content:center;
+    font-family: 'Poppins', sans-serif;
 }
